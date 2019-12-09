@@ -1,0 +1,61 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R9.1 Superclas and subclass
+    a.Employee (Superclass), Manager (Subclass)
+    b.GraduateStudent (Subclass), Student (Superclass)
+    c.Person (Superclass), Student (Subclass)
+    d.Employee (Superclass), Professor (Subclass)
+    e.BankAccount (Superclass), CheckingAccount (Subclass)
+    f.Vehicle (Superclass), Car (Subclass)
+    g.Vehicle (Superclass), Minivan (Subclass)
+    h.Car (Superclass), Minivan (Subclass)
+    i.Truck (Subclass), Vehicle (Superclass)
+
+R9.2 superclass and subclass
+    Because small appliance is too general. Toaster, CarVacuum and TravelIron do not share many common traits.
+
+R9.4 SavingsAccount
+    Inherit: deposit(), getBalance()
+    Override: withdraw(), monthEnd()
+    Add: setInterestRate()
+
+R9.6 Sandwich
+    a.Legal
+    b.Illegal
+    c.Illegal
+    d.Legal
+
+R9.7 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+
+    "_04interface/R9_7.png"
+
+R9.8 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+
+    "_04interface/R9_8.png"
+
+R9.9 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+
+    "_04interface/R9_9.png"
+
+R9.10 Casting
+
+    The cast such as BankAccount is from a subclass to superclass.
+    The cast such as in is from one primitive type to another primitive type.
+
+R9.11 instanceof operator
+    a. True
+    b. True
+    c. False
+    d. True
+    e. True
+    f. False
+
+R9.14 Edible interface
+    a, c
+
+
+
+
+

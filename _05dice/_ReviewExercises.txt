@@ -1,0 +1,61 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R10.5 Events
+User-interface events include key presses, mouse moves, button clicks, menu selections,
+and so on. It is represented as an object in Java.
+
+Event sources report on events. When an event occurs, the event source notifies all event listeners.
+
+Event listeners belong to a class created by the user, where methods inside can take certain actions
+when an event is detected.
+
+
+R10.6 actionPerformed
+The event object calls the method. When there is an event detected.
+
+
+R10.11 Inner class and event-listeners
+Because the listener is short, we can put it where it is needed. Also, by using inner class,
+the listener can access the instance variable and surrounding methods.
+
+Yes. We can write the method inside the interface class.
+
+
+
+R10.14 Object hierarchies
+
+JTextArea: getLineCount()
+JTextComponent: getText()
+JComponent: getUIClassID()
+
+
+R10.22 Graphic methods
+We can pass the colors as the two component variables.
+
+R11.2 Layout managers
+We can put the container at anywhere we want and can better organize the whole layout of GUI.
+
+R11.11 ButtonGroup
+The button group is used to make multiple-exclusive selection, while check box is allowed for multiple selections.
+
+R11.19 Types of Events
+MouseEvent is designed for GUI, while ActionEvent is not limited to GUI (can be used in timer).
+
+R11.20 Events
+ActionEvent carries the information of Command(which event), when(time) and modifier.
+MouseEvent carries the information of x,y (coordinates), popUpTrigger (press of release), clickCount (number of clicks)
+, button (which button is clicked).
+
+
+R11.21 ActionListener versus MouseListener
+Because ActionListener only detects if an event has occured, while MouseListener will detect multiple events,
+including press, click, release, enter and exit.
+
+
+
+
+
+
+

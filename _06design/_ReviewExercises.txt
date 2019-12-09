@@ -1,0 +1,82 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R12.1 OO Analysis and Design
+The CRC (classes, responsibilities, collaborators) card method is recommended.
+
+R12.2 OO Analysis and Design
+We are looking for a noun to be a class.
+
+
+R12.3 OO Analysis and Design
+We are looking for a verb to be a method.
+
+
+R12.8 Relationships
+
+            Cash Register
+ purchase       |       Coin
+ payment        |
+ add item       |
+ enter payment  |
+ give change    |
+
+             Coin
+ value        |
+ name         |
+
+
+R12.9 CRC Quiz
+                    Quiz
+ add question       |       Question
+ present question   |
+
+                Question
+  text              |
+  answer            |
+
+
+
+R12.10 UML Quiz
+
+See "src\_06design\R12_10.png"
+
+
+R12.11 CRC Cards
+/**
+We need to make a country class, which contains the attributes of area, population and density.
+We also need a Find_Largest class to compute the largest area, population and density of countries. Thus
+Country is Find_Largest's collaborator.
+*/
+
+UML Diagram: See "src\_06design\R12_11.png"
+
+                Country
+area
+population
+density
+
+                        CountryReader
+read file
+find largest area               |   Country
+find largest population         |
+find largest population density |
+
+
+
+R12.13 UML Diagram
+I will use classes of vending machine, coin and product.
+
+
+R12.14 UML Diagram
+I will use classes of pay check, employee and pay check generator.
+
+
+R12.15 ULM Diagram
+See "src\_06design\R12_15.png"
+
+
+
+
+
