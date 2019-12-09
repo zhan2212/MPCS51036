@@ -1,0 +1,92 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R1.5 The following are all benefits to using Java over machine code:
+1/ Java bytecode is platform independent and may be run on any system that has a JVM. This quality is known as portability.
+2/ Java JIT compilers can run efficient Java programs as fast or faster than machine code programs
+3/ Java is memory-managed. This reduces about 95% of runtime errors (mostly memory-related) as compared to unmanaged code.
+4/ Java was designed for networking and the Internet in mind; and it is generally safer than machine code
+5/ With the introduction of Java8, Java is now a declarative and functional programming language.
+
+R2.4 Translating math expressions to Java.
+    s = s0 + v0*t + 0.5*g*Math.pow(t,2)
+    FV = PV * Math((1 + INT/100),YRS)
+    G = 4*Math.pow(Math.PI,2) * Math.pow(a,3)/(Math.pow(p,2)*(m1+m2))
+    c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2) - 2*a*b*Math.cos(gamma))
+
+R2.7 Understanding integer operations, order of precedence, and integer division.
+    a. 8
+    b. 1
+    c. 17
+    d. 17.5
+    e. 17
+    f. 18
+
+R2.14 How the compiler interprets primitive values
+    2 is integer, 2.0 is double, '2' is character, "2" is a string and "2.0" is another string. Integer can only
+    perform operations among integer numbers while float can deal with number with decimal digits. 2.0 is more
+    precise than 2 since it has one decimal digit. Math operations can not be performed among string and character.
+    string is a class while character is a primitive type and string is an array of character. "2.0" is a string
+    that is longer than "2".
+
+R2.17 Pseudocode understading
+    String name = "DASDA WQE AE";
+    String[] parts = name.split(" ");
+    for (int i=0; i< parts.length;i++){
+        print(parts[i,0]);
+    }
+
+R2.22 More pseudocode - you do not need to draw a diagram for this question
+    4 * 3 = 12
+    12 + 3 = 15
+    "SunMonTueWedThuFriSat"[12:15] = "Thu"
+    The result is "Thu".
+
+R3.19 Pseudocode for grade problem
+    if(Grade < 60)
+        letterGrade = "F"
+    else if (Grade < 70)
+        letterGrade = "D"
+    else if (Grade < 80)
+        letterGrade = "C"
+    else if (Grade < 90)
+        letterGrade = "B"
+    else
+        letterGrade = "A"
+    print(letterGrade)
+
+R3.30 Boolean expressions
+    a. false
+    b. true
+    c. true
+    d. true
+    e. false
+    f. false
+    g. false
+    f. false
+
+R4.12 Implementing loops
+    Java supports for loop, while loop and do while loop.
+    We use for loop when we need to make some operations for a certain number of times.
+    We use while loop when we need to make some operations until some requirements meet. We will first cehck the requirement
+    and then make an operation.
+    We use do while loop also when we need to make some operations until some requirements meet. We will first make
+    an operation and then check the requirement.
+
+R4.14 Calendar problem
+    weekday = "Su  M  T  W Th  F Sa"
+    println(weekday)
+    print("          ")
+    for (int i=1; i<=32; i++)
+        print(i)
+        if (i % 7 == 4)
+            System.out.println()
+            if(i == 4)
+                System.out.print(" ")
+        else
+            if(i<9)
+                System.out.print("  ")
+            else
+                System.out.print(" ")
+

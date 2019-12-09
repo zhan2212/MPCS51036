@@ -1,0 +1,66 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R8.1 Encapsulation
+Encapsulation is to wrap up the variables and methods together as a single class, The process of providing a public
+interface, while hiding the implementation details.
+It is useful because some data and methods can be hidden from users.
+
+
+R8.4 Public interface
+Public interface is a class consists of all methods that a user of the class may want to apply to its objects.
+Implementations are hidden from users while public interfaces are visible.
+
+
+R8.7 Instance versus static
+Instance method are the methods that you invoke on an object.
+The static methods are the methods a class defines that are not invoked on an object. they belong to the class itself.
+
+
+R8.8 Mutator and accessor
+Mutator is the public interface that modifies the object on which it operates.
+Accessor is the public interface that queries the object for some information without changing it.
+
+
+R8.9 Implicit parameter
+The implicit parameter is the object on which an instance method is applied.
+The explicit parameter is the parameter that is explicitly mentioned in the method declaration.
+
+
+R8.10 Implicit parameter
+An instance method has only on implicit parameter. A static method does not have a implicit parameter.
+An instance method can have multiple explicit parameters.
+
+
+R8.12 Constructors
+In java, a class can have 65535 constructors. A class can have no constructor. The constructor that matches the
+arguments that you supply can get called.
+
+
+R8.16 Instance variables
+Private instance variable can only be accessed by the methods in its class.
+
+
+R8.19 The this reference
+In a method, the this reference refers to the implicit parameter.
+Call can be easier to understand when you use the this reference.
+
+
+R8.20 Zero, null, false, empty String
+Zero is a certain value.
+Null means the object reference refers to no object at all.
+False is a boolean value.
+Empty string refers to an object with value of 0.
+
+
+
+
+
+
+
+
+
+
+
+
